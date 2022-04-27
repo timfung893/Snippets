@@ -1,0 +1,33 @@
+{
+  // CSS
+
+  "flexbox": {
+    "prefix": "flexcenter",
+    "body": ["display:flex;", "align-items:center", "justify-content:center;"],
+    "description": "center a flexbox"
+  },
+
+  "flexcol": {
+    "prefix": "flexcol",
+    "body": ["display:flex;", "flex-direction: column;"],
+    "description": "display flex with direction column"
+  },
+
+  "flexrow": {
+    "prefix": "flexrow",
+    "body": ["display:flex;", "flex-direction: row;"],
+    "description": "display flex with direction row"
+  },
+
+  "center item": {
+    "prefix": "center",
+    "body": [
+      "position: absolute;",
+      "top: 50%;",
+      "left: 50%;",
+      "transform: translate(-50%, -50%);"
+    ]
+  }
+
+  //   HTML
+}
